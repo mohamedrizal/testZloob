@@ -1,0 +1,486 @@
+body {
+  font-family: "Lato-Reguler";
+}
+
+.nav {
+  position: relative;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #d9a84e;
+}
+
+.nav-item.active {
+  color: #fff;
+  border-bottom: 2px solid #d9a84e;
+}
+
+.logo {
+  position: absolute;
+  z-index: 2;
+  left: 11%;
+  background-color: #2a3a59;
+  color: #fff;
+  padding: 20px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(64, 64, 64, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(64, 64, 64, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(64, 64, 64, 0.5);
+}
+
+.logo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.information-wrapper {
+  margin-left: 10%;
+}
+
+.information {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #2a3a59;
+  color: #fff;
+}
+
+.nav-menu {
+  margin-left: 18%;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.location {
+  display: flex;
+}
+
+.telp {
+  display: flex;
+}
+
+.nav-desc {
+  padding: 0 0 0 5px;
+}
+
+.nav-desc-text {
+  margin: 0;
+  font-size: small;
+}
+
+.fa-icon {
+  font-size: 35px;
+  color: #daa250;
+}
+
+.nav-menu-icon {
+  margin-right: 1%;
+}
+
+.menu-icon {
+  font-size: small;
+  padding: 0 0 0 15px;
+  cursor: pointer;
+}
+
+.menu-icon:hover {
+  color: #d9a84e;
+}
+
+.button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2a3a59;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.style-3 {
+  background-color: #d9a84e;
+}
+
+.client-logo {
+  background-color: #2a3a59;
+  text-align: center;
+}
+
+.client-icon {
+  font-size: 60px;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.welcome-text p {
+  color: #daa250;
+  text-transform: uppercase;
+}
+
+.welcome-text h3 {
+  padding: 0 10% 0 0;
+}
+
+.welcome-text hr {
+  margin: 0px;
+  width: 10%;
+  height: 1px;
+  background-color: #daa250;
+}
+
+.practice-area {
+  position: relative;
+}
+
+.practice-img {
+  position: relative;
+  background: url("../images/bg.jpg") #2a3a59;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-blend-mode: multiply;
+  filter: brightness(30%);
+}
+
+.practice-body {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  top: 15%;
+}
+
+.left {
+  color: #fff;
+}
+
+.left p {
+  margin: 0;
+  color: #daa250;
+  text-transform: uppercase;
+}
+
+.right {
+  color: #fff;
+}
+
+.right hr {
+  margin: 0px;
+  width: 10%;
+  height: 1px;
+  background-color: #daa250;
+}
+
+.practice-card {
+  position: absolute;
+  top: 60%;
+}
+
+.card {
+  border: none;
+  background: none;
+  width: 21.5rem;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card small {
+  color: #747171f8;
+}
+
+.card-date {
+  position: absolute;
+  z-index: 2;
+  background-color: #d9a84e;
+  color: #fff;
+  padding: 10px;
+  top: 45%;
+  left: 60%;
+}
+
+.card-date p {
+  margin: 0;
+}
+
+.button-practice {
+  margin-left: 42%;
+}
+
+.services {
+  margin-top: 35%;
+}
+
+.services-item-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title p {
+  color: #daa250;
+  margin: 0;
+}
+
+.title hr {
+  width: 10%;
+  height: 1px;
+  background-color: #daa250;
+}
+
+.services-icon {
+  color: #2a3a59;
+  font-size: 100px;
+}
+
+.appointment {
+  position: relative;
+  margin-top: 6rem;
+}
+
+.cImg {
+  background: url("../images/bg2.jpg");
+  background-size: cover;
+  height: 400px;
+  filter: brightness(40%);
+  position: relative;
+  z-index: -10;
+}
+
+.appointment-text {
+  position: absolute;
+  z-index: 2;
+  bottom: 10%;
+  right: 10%;
+}
+
+.appointment-text h1 {
+  color: #fff;
+}
+
+.appointment-text hr {
+  margin: 0px;
+  width: 10%;
+  height: 1px;
+  background-color: #daa250;
+  margin-bottom: 1rem;
+}
+
+.appointment-text p {
+  color: #fff;
+}
+
+.phone-number {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.pNumber {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.appointment-button {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.appointment-form {
+  width: 35%;
+  background-color: #2a3a59;
+  border: 8px solid #d9a84e;
+  padding: 30px;
+  position: absolute;
+  bottom: -20%;
+  left: 54%;
+  z-index: 5;
+}
+
+.appointment-form h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.input-field input {
+  padding: 10px;
+  width: 100%;
+  background: none;
+  outline: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #daa250;
+}
+
+.input-field textarea {
+  padding: 10px;
+  background: none;
+  outline: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid #daa250;
+}
+
+.blogs {
+  background-color: #f5f5f5;
+}
+
+.blog-title p {
+  color: #d9a84e;
+  margin: 0;
+}
+
+.text hr {
+  margin: 0px;
+  width: 10%;
+  height: 1px;
+  background-color: #daa250;
+  margin-top: 1rem;
+}
+
+.news-card {
+  top: 37%;
+  left: 5%;
+}
+
+.news-body small {
+  color: #6e6e6edd;
+}
+
+.card-footer {
+  background: none;
+  border: none;
+}
+
+.card-footer small {
+  color: #6e6e6edd;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.blogs-button {
+  margin: auto;
+}
+
+.footer-up {
+  position: relative;
+  background: url("../images/bg2.jpg") #2a3a59;
+  background-size: cover;
+  height: 400px;
+  background-blend-mode: multiply;
+}
+
+.title-footer {
+  color: #fff;
+}
+
+.footer-body p {
+  color: #fff;
+}
+
+.footer-logo {
+  position: absolute;
+  z-index: 2;
+  bottom: 80%;
+  left: 8%;
+  background-color: #2a3a59;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-icon {
+  background-color: #2a3a59;
+  padding: 10px 10px 10px 0;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.iconF {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-icon:hover {
+  background-color: #fff;
+  color: #2a3a59;
+}
+
+.practice-link {
+  color: #d5d5d5;
+}
+
+.practice-link:hover {
+  color: #fff;
+}
+
+.footer-news-title {
+  color: #fff;
+}
+
+.contact-title h4 {
+  color: #fff;
+}
+
+.info p {
+  margin: 0;
+}
+
+.contact hr {
+  height: 1px;
+  background-color: #ddd;
+}
+
+.footer-news hr {
+  height: 1px;
+  background-color: #ddd;
+}
+
+.footer-news small {
+  color: #fff;
+}
+
+.footer-down {
+  background-color: #2a3a59;
+}
+
+.footer-down p {
+  color: #fff;
+}
