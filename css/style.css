@@ -225,7 +225,7 @@ body {
 }
 
 .services {
-  margin-top: 35%;
+  margin-top: 30%;
 }
 
 .services-item-title {
@@ -316,8 +316,8 @@ body {
   border: 8px solid #d9a84e;
   padding: 30px;
   position: absolute;
-  bottom: -20%;
-  left: 54%;
+  bottom: -5%;
+  left: 55%;
   z-index: 5;
 }
 
@@ -346,6 +346,7 @@ input:focus {
   outline: none;
   border: 2px solid #fff;
   color: #fff;
+  width: 100%;
 }
 
 textarea:focus {
@@ -483,4 +484,28 @@ textarea:focus {
 
 .footer-down p {
   color: #fff;
+}
+
+@media (min-width: 1400px) {
+  .appointment-form {
+    width: 35%;
+    background-color: #2a3a59;
+    border: 8px solid #d9a84e;
+    padding: 30px;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    z-index: 5;
+  }
+
+  .appointment-text {
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    right: 22%;
+  }
+
+  .services {
+    margin-top: 25%;
+  }
 }
